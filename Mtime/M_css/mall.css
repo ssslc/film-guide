@@ -1,0 +1,139 @@
+﻿  .m_mall .h .navi .rock .batman .power .ul .look .last .l_h .m_h .r_h{
+        margin:0px;padding:0px;
+    }
+
+    .m_mall header{
+
+        width:1200px;
+        height:83px;
+    }
+    .m_mall a{
+        color:black;
+        text-decoration: none;
+    }
+ .m_mall a:hover{
+        color:#1f7dd7;
+ }
+    .m_mall{
+        margin:0 auto;
+        margin-top: 70px;
+        width:1200px;height:969px;
+    }
+    .l_div{
+        float:left;
+        width:422px;height:55px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .m_div{
+        float: left;
+        width:356px;height:83px;
+    }
+    .h{text-align: center;
+        width:456px;
+        height:34px;
+        font-size:22px;
+    }
+    .navi{
+        width:376px;height:49px;
+        padding-top:-10px;
+    }
+    .navi_1{
+        border-right:1px solid #E5E5E5;
+    }
+    .navi_2{
+        border-right:1px solid #E5E5E5;
+    }
+    .navi_3{
+        border-right:1px solid #E5E5E5;
+    }
+    .navi dl{
+        margin: 0 auto;
+
+    }
+    .navi dl dt{
+        font-size: 22px;
+        text-align: center;
+    }
+    .navi dl dd{
+        margin: 0 auto;
+        font-size: 14px;
+        display: block;
+        padding-left: 20px;
+        padding-right: 15px;
+
+        float: left;
+    }
+    .r_div{
+        float: left;
+        width:422px;height:55px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    section{
+        width:1200px;height:796px;
+    }
+    .brr{
+        float: left;
+        width:386px;height:492px;
+    }
+    .rock .power{
+        width:386px;height:236px;
+    }
+    .ring{
+        width:386px;height:242px;
+        padding-top: 12.5px;
+    }
+    .car{
+        width:386px;height:242px;
+        padding-top: 12.5px;
+    }
+    .batman{
+        float: left;
+        width:386px;height:492px;
+        margin-left: 20px;
+    }
+    .bpc{
+        float: right;
+        width:386px;height:492px;
+    }
+    .ul{
+        float:left;
+        width:1200px;height:180px;
+        padding-top:40px;
+    }
+    .ul ul li{
+        display:inline-block;
+        float:left;
+    }
+    .u_1{
+        margin-left:-40px;
+    }
+    .u_2{
+        margin:0px 19px 0px 19px;
+    }
+    .u_3{
+        margin-right:21px;
+    }
+    .lookt{
+        float:left;
+        width:1200px;height:18px;
+    }
+    .look{
+        float:left;
+        width:1200px;height:35px;
+        text-align: center;
+    }
+    .more{
+        padding-top:8px;
+        margin-left: 520px;
+        border:1px solid #666666;
+        border-radius: 17.5px;
+        width:158px;height:30px;
+    }
+    .more:hover{
+        background-color:#1E7DD7;
+    }
+    .ad{
+        margin: 0 auto;
+        margin-top: 60px;
+        width:1200px;height:90px;
+    }

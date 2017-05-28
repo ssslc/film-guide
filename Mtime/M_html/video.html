@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>神奇动物在哪里</title>
+</head>
+<style>
+body{
+    background-color:#F9F9F9;
+}
+.m_nav{
+position: absolute;
+top:0;
+    z-index: 100;
+width: 100%;
+height: 60px;
+background-color: #1D2736;
+}
+.m_nav a{
+
+    text-decoration: none;
+    color:#c8c8c8;
+}
+     
+.m_nav ul{
+
+    margin-left: 25px;
+}
+.m_nav .navlink{
+    float: left;
+    width: 483px;
+    height: 60px;
+}
+.m_nav li{   
+    line-height: 60px;
+    height: 60px;
+width: 58px;
+    float: left;
+    list-style: none;
+}
+.m_nav ul .hot{
+    width: 65px;
+
+}
+.m_nav ul .pic{
+    float: left;
+        background:url(../M_images/Mtime/1.png) no-repeat -166px 15px;
+        width: 35px;
+        height:60px;
+}
+.m_nav li a{
+    width: 28px;
+    height: 60px;
+
+    color:#c8c8c8;}
+a:hover{
+
+    font-weight: bold;
+}
+.m_nav .logo{
+    display: block;
+    position: relative;
+margin: 0px auto;
+top:9px;
+    width: 137px;
+    height: 42px;
+    background: url(../M_images/Mtime/1.png);
+ }   
+ .headcart{
+
+    float: right;
+    background:#e83729;
+    height: 62px;
+    width:62px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 2;
+ }
+ .headtool a{
+float: right;
+display: block;
+right: 120px;
+position: relative;
+top: -20px;
+margin-top: -21px;
+padding: 18px 10px 0 10px;
+z-index: 5;
+height: 40px;
+color:white;
+ }
+
+
+ .login-reg{
+    height: 60px;
+    width: 153.5px;
+    margin-top: -21px;
+    position: relative;
+    right: 80px;
+    float: right;
+ }
+.login-reg .login{
+  vertical-align: middle;
+  padding-bottom: 2px;
+    padding-right: 10px;
+    float: left;
+    height: 16px;
+    width: 36px;
+border-right: 1px solid #c8c8c8;
+}
+.login-reg .reg{
+    float: left;
+        padding-left:10px;
+            height: 16px;
+    width: 30px;
+}
+ .login-reg .login a,.login-reg .reg a{
+    height: 60px;
+    width: 36px;
+float: left;
+ }
+
+.line{
+    margin: -23px;
+height: 60px;
+width:0;
+position: absolute;left: 0;
+top: 0;
+border-left: 1px solid #141c28;
+border-right: 1px solid #303947;
+overflow: hidden;
+ }
+.code_pic{
+
+
+    position: absolute;
+    top: 55px;
+    right: -50px;
+    display:none;
+   
+}
+.headtool a:hover>span{
+display: inline; 
+}
+ .ico-app{
+    float: left;
+    top: 19px;
+    right: 340px;
+    position: absolute;
+margin-right:5px;
+    width: 13px;
+    height: 20px;
+    background: url(../M_images/Mtime/1.png) no-repeat -54px -45px;
+ }
+.ico-cart{
+    background: url(../M_images/Mtime/1.png) no-repeat 0 -45px;
+    width:26px;
+    height: 20px;
+    position: absolute;
+    left: 18px;
+    top: 21px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+    .ttop{
+        border:1px solid;
+        width:100%;height:60px;
+    }
+    .animal{
+        width:100%;height:179px;
+    }
+    .empty{
+        width:100%;height:49px;
+    }
+    .a_mi{
+        border-left:9px solid #D01538;
+        margin-left: 13%;
+        width: 48%;height:81px;
+    }
+    .an_t{
+        font-size:34px;
+    }
+    .an_b{
+        font-size: 26px;
+    }
+    .qa{
+        margin-left:13%;
+    }
+    .qa li{
+        display:inline-block;
+        float: left;
+        padding-left: 20px;
+    }
+    .qa li a{
+        font-size: 16px;
+    }
+    .video{
+        width:100%;height:563px;
+        background:black;
+    }
+    footer{
+        width:100%;height:1076px;
+    }
+    .left_l{
+        float: left;
+        margin-left:13%;
+        border-right: 1px solid #CCCCCC;
+        width:49%;height:1079px;
+    }
+    .font{
+        height:707px;
+        color:#333333;
+    }
+    .right_l{
+        float: right;
+        margin-right: 110px;
+        width:24%;height:1076px;
+    }
+    .font_1{
+        margin-top:25px;
+        width: 93%;
+        font-style:italic;
+        font-size:20px; 
+    }
+    .font_2{
+        margin-top:40px; 
+        width: 93%;
+        font-size:15px;
+        text-indent:2em; 
+    }
+    .font_3{
+        margin-top:40px; 
+        width: 93%;
+        font-size:15px;
+        text-indent:2em; 
+    }
+    .font_4{
+        margin-top:40px; 
+        width: 93%;
+        font-size:15px;
+        text-indent:2em; 
+    }
+    .font_r{
+        margin-top:22px;
+        width: 94%;
+        color:#797979; 
+        text-align: right;
+        font-size:13px;
+    }
+    .font_mt{
+        margin:32px 0 40px 0;
+        text-align: center;
+        font-size:12px;
+        color:#797979;
+    }
+    .font_a ul{
+        margin: 0;padding:0;
+    }
+    .font_a li{
+        float: left;
+        display:inline-block;
+        padding-right:7px;
+    }
+    .font_a li a{
+            color:#00A2DD;
+    }
+    .arti li a{
+        color:#797979;
+    }
+    .team{
+        margin-top:20px;
+    }
+    .r_list{
+        border-bottom: 1px solid #CCCCCC;
+        margin-top:40px;
+        padding-bottom: 16px;
+        height:460px;
+    }
+    .list_l{
+        float: left;
+    }
+    .list_r{
+        float: right;
+    }
+    .list_r a{
+        color:#0088CC;
+        font-size:13px;
+    }
+    .picture_t{
+        float: left;
+    }
+    .code3{
+        float: left;
+    }
+    .code4{
+        float: right;
+        margin-left:8px;
+    }
+    .picture_b{
+        float: left;
+    }
+    .picture_t p{
+        color:#E34949;
+    }
+    .picture_b p{
+        color:#E34949;
+    }
+    .code5{
+        float: left;
+    }
+    .code6{
+        float: right;
+        margin-left:8px;
+    }
+    .five{
+        padding-left:120px;
+        padding-top:16px;
+        height:82px;
+    }
+   span{
+        font-size:25px;
+        font-weight: bold;
+    }
+    .newslinks{
+        border-bottom:1px solid #cccccc;
+        height:195px;
+    }
+    h4{
+        margin-top: -20px;
+    }
+    .dd{
+        margin-top:-10px;
+    }
+    .ddh{
+        float: right;
+        margin-top:-15px;
+        margin-right:25px;
+    }
+    .number{
+        width:28px;height:20px;
+        background-color: #679C21;
+        color:#FFFFFF;
+        font-weight:bold;
+    }
+    h3{
+        width:160px;height:38px;
+    }
+    h3 a{
+        color:#4898CE;
+    }
+    .director{
+        margin-top:5px;
+    }
+    .star{
+        margin-top:5px;
+    }
+    .video video{
+        margin-left: 150px;
+    }
+</style>
+<body>
+ <header class="m_nav" >
+    <div class="navlink">
+<ul>
+    <li><a href="./video.html">首页<i></i></a></li>
+    <li><a href="./video.html">购票</a></li>
+    <li class="hot"><a href="./video.html">正版商城</a></li>
+    <li><div class="pic"></div></li>
+    <li><a href="./video.html">新闻</a></li>
+    <li><a href="./video.html">发现</a></li>
+    <li><a href="./video.html">社区</a></li>
+</ul>
+</div>
+
+<a class="logo" href=""></a>
+
+<div class="headcart">
+<i class="ico-cart"></i></div>
+
+<div class="login-reg">
+<i class="line"></i>
+<div class="login"><a href="">登录</a></div>
+<div class="reg"><a href="">注册</a></div>
+</div>
+<div class="headtool">
+<i class="line"></i>
+    <div class="ico-app"></div>
+    <a href="./download.html">APP下载<span  class="code_pic"><img src="../M_images/images/code.jpg" alt=""></span></a>
+</div><i class="line"></i>
+    </header>
+
+    <div class="animal">
+    
+        <div class="a_mi">
+            <div class="an_t">《神奇动物在哪里》7分钟删减片段流出</div>
+            <div class="an_b">科林法瑞尔电梯撩妹"麻鸡"雅各布女友首登场</div>
+        </div>
+        <div class="qa">
+        <ul>
+            <li>2017-02-26  10:07:23</li>
+            <li class="m"><a href="#">来源：Mtime时光网</a></li>
+            <li><a href=""><img src="../M_images/Mtime/images.png" width=16px height=16px alt="">17</a></li>
+        </ul>
+        </div>
+    </div>
+    <section>
+    <div class="video">
+    <video controls="controls" controls="controls" height=563px poster="../M_images/Mtime/27.jpg">
+
+  <source src="../M_images/video/2.mp4" type="video/mp4" />
+
+    </div>
+    </section>
+    <footer>
+    <div class="left_l">
+        <div class="font"><div class="font_1">/ 这支视频时长7分多钟，收录了科林·法瑞尔饰演的格里夫斯在魔法部电梯当着纽特面撩妹等7支删减片段。</div>
+        <div class="font_2">
+        时光网讯<a href="#">《神奇动物在哪里》</a>今日流出一支时长7分多钟的删减片段合集，这些片段原本是收录在影片即将推出的蓝光碟当中的。</div>
+        <div class="font_3">
+        这支视频由7个片段剪辑合成。其中包括科林·法瑞尔饰演的格里夫斯在魔法部电梯中当着纽特面撩妹的片段，可以脑补一下约翰尼·德普饰演的格林德沃，或许更带感！还有“麻鸡”雅各布和女友的故事线也首次曝光，而克雷登斯最终大战前变身默然者席卷纽约城的大量镜头也在这支片段中出现。</div>
+        <div class="font_4">
+        《神奇动物在哪里》的故事发生在比<a href="">《哈利·波特》</a>早了70年的美国纽约，讲述了神奇动物学家纽特·斯卡曼德离开霍格沃兹魔法学校后为寻找和保护神奇动物所发生的一段奇异冒险。该片去年在内地收获5.92亿票房，全球票房达到8.1亿美元，作为系列首座可谓平稳开局。此外，该片还入围了第89届奥斯卡奖的最佳艺术指导和最佳服装设计提名，能够有所斩获，明天见分晓。</div>
+        <div class="font_r">编辑：ruo </div>
+        <div class="font_mt">[Mtime时光网专稿 未经许可不得转载]</div>
+       <div class="font_a"> 
+       <ul>
+           <li>关键词：</li>
+           <li><a href="#">神奇动物在哪里</a></li>
+           <li><a href="#">删减片段</a></li>
+           <li><a href="#">视频</a></li>
+       </ul></div>
+        </div>
+        <div class="v_mt">
+            <img src="../M_images/Mtime/code.jpg" width=625px height=194px  alt="">
+        </div>
+        <div class="arti">
+            相关文章
+            <ul>
+                <li><a href="#">美国化妆发型师工会奖公布提名名单"神奇动物"领跑电影奖"美恐"面临新剧竞争</a></li>
+                <li><a href="#">11月中国内地影市仍未回暖 中外大片竞相集结 市场销售欲振乏力</a></li>
+                <li><a href="#">《神奇动物》延长上映时间至1月24日 全球票房达6.8亿美元 内地票房5.78亿</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right_l">
+        <div class="team">
+            <img src="../M_images/Mtime/code2.jpg" alt="">
+        </div>
+        <div class="r_list">
+        <div class="list_l">推荐商品</div>
+        <div class="list_r"><a href="#">更多商品》</a></div>
+        <div class="picture_t">
+                <div class="code3"><a href="#"><img src="../M_images/Mtime/code3.jpg" alt=""></a><br><a href="#">神奇女侠Q萌挂件</a><br><p>￥49</p></div>
+                <div class="code4"><a href="#"><img src="../M_images/Mtime/code4.jpg" alt=""></a><br><a href="#">超人立体i6手机壳</a><br><p>￥78</p></div>
+        </div>
+        <div class="picture_b">
+                <div class="code5"><a href="#"><img src="../M_images/Mtime/code5.jpg" alt=""></a><br><a href="#">Hot Toys星战人偶</a><br><p>￥1250</p></div>
+                <div class="code6"><a href="#"><img src="../M_images/Mtime/code6.jpg" alt=""></a><br><a href="#">膳魔师凯蒂猫吸管杯</a><br><p>￥175</p></div>
+        </div>
+        </div>
+        <div class="five"><img src="../M_images/Mtime/code7.png"  alt=""><span>5</span><!-- <div class="sfive"> -->/5 <img src="../M_images/Mtime/code8.png"  alt=""><!-- </div> --></div>
+        <div class="newslinks">
+            <h4>相关电影/影人</h4>
+            <div class="dd">
+                <img src="../M_images/Mtime/code9.jpg" alt="">
+               <div class="ddh">
+               <h3><a href="#" target="blank">神奇动物在哪里(2016)</a></h3>
+               <div class="number">7.5</div>
+               <div class="director">导演：<a href="#">大卫·耶茨</a></div>
+               <div class="star">主演：<a href="#">埃迪·雷德梅恩</a></div>
+               </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

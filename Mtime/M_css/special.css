@@ -1,0 +1,278 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+
+}
+.topbar {
+    background: url(../M_images/Mtime/7.png) no-repeat;
+        background-position: -54px -255px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin: 1px 0 0;
+    width: 50px;
+}
+ .searchbar{
+    background: url(../M_images/Mtime/7.png) no-repeat;
+    background-position: -54px 0;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin: 1px 0 0;
+    vertical-align: middle;
+    width: 50px;
+}
+.mtimebar {
+
+    bottom: 5px;
+    position: fixed;
+    right: 0;
+    width: 50px;
+    z-index: 100;
+}
+.searchbar:hover{
+	background: url(../M_images/Mtime/7.png) no-repeat;
+    background-position: 1px 0;
+}
+.topbar:hover{
+	background: url(../M_images/Mtime/7.png) no-repeat;
+        background-position: 1px -255px;
+}
+.special_main{
+	margin: 0 auto;
+	margin-top: 70px;
+	position: relative;
+	width: 1200px;
+	height: 630px;
+}
+.special_list{
+	
+}
+.special_title{
+	float: left;
+	width: 860px;
+	font-weight: normal;
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.special_more{
+	float: left;
+	margin-top: 6px;
+
+}
+.special_more a{
+	width: 50px;
+	height: 20px;
+	display: inline-block;
+	color: #444;
+	font-size: 15px;
+}
+
+.special_more a:hover{
+	color: #1F7DD7;
+}
+.special_box{
+	width: 439px;
+	height: 255px;
+	float: left;
+	margin-bottom: 8px;
+}
+.special_pic{
+	width: 420px;
+	height: 200px;
+}
+.special_pic1{
+	float: left;
+	width:280px;
+	 height:200px;
+}
+.special_pic1 a{
+	display: block;
+}
+.special_pic2{
+	float: left;
+	width:138px;
+	 height:99px;
+	 margin-left: 2px;
+	 margin-bottom: 2px;
+}
+.special_pic2 a{
+	display: block;
+}
+.special_pic3{
+	position: relative;
+	float: left;
+	width:138px;
+	 height:99px;
+	 margin-left: 2px;
+}
+.special_pic3 a{
+	display: block;
+	height: 99px;
+}
+.special_pic3 span{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 138px;
+	height: 99px;
+	background: url(../M_images/Mtime/5.png);
+}
+.special_pic3 strong{
+	width: 100%;
+	text-align: center;
+	line-height: 99px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.special_pic3 strong i{
+	font-size: 26px;
+	font-family: "微软雅黑";
+	font-style: normal;
+}
+.special_pic3 a:hover>span{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 138px;
+	height: 99px;
+	background: url(../M_images/Mtime/6.png);
+
+}
+.special_pic_text{
+	margin-top: 10px;
+}
+.special_pic_text a{
+	line-height: 1.6;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.special_pic_text a:hover{
+	color: #1F7DD7;
+}
+.special_movies{
+	position: relative;
+	top: -300px;
+	float: right;
+	width: 303px;
+	height: 503px;
+}
+.special_movies h3{
+	text-align:center;
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 22px;
+}
+.boxofficetab{
+	width: 300px;
+	height: 32px;
+}
+.boxofficetab li{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 32px;
+	text-align: center;
+	    cursor: pointer;
+}
+.boxofficetab li span{
+	width: 32px;
+	height: 35px;
+	padding-bottom: 10.5px;
+}
+ .boxofficetab li .cur{
+ 	font-weight: bold;
+ 	color: #4086D9;
+ 	border-bottom: 3px solid #4086D9;
+ }
+.fix li>ul{
+	border-top:  1px solid #E5E5E5;
+	padding-top: 20px;
+}
+.fix li>ul>li{
+	width: 303px;
+	height: 120px;
+	margin-bottom: 13px;
+}
+.special_img1 i{
+	float: left;
+	font-size: 28px;
+	color: #d2d2d2;
+	font-style: normal;
+	margin-right: 8px;
+}
+.special_img1 a{
+	float: left;
+	display: block;
+	position: relative;
+	height: 120px;
+	width: 80px;
+}
+.special_img1 a em{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 32px;
+	height: 20px;
+	background-color: #74AB34;
+	font-size: 13px;
+	color: #fff;
+	font-style: normal;
+	text-align: center;
+}
+.special_text h4 a{
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	width: 170px;
+	height: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.special_text p{
+	float: left;
+	width: 170px;
+	height: 20px;
+	color: #888;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.gt {
+	display: inline-block;
+    background: url(../M_images/Mtime/3.png) -126px -21px no-repeat;
+    width: 6px;
+    height: 10px;
+    line-height: 0;
+    font-size: 0;
+    top: -1px;
+}
+.tr{
+	float: right;
+	vertical-align: middle;
+}
+.tr a{
+	color: #333;
+	font-size: 14px;
+}
+.tr a:hover{
+	color: #4086D9;
+}

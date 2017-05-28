@@ -1,0 +1,103 @@
+﻿h3,ul,li,body{
+	/*border: 1px solid;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+*{
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+
+.global_funnews{
+	width: 1200px;
+	height: 630px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.global_title{
+
+	font-weight: normal;
+	font-size: 21px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.global_main{
+	height: 400px;
+}
+.global_pic_text{
+	margin-right: 20px;
+}
+.global_lfloat li{
+	float: left;
+}
+.global_pic{
+	position: relative;
+	width: 285px;
+	height: 140px;	
+}
+.global_pic a:hover>.video{
+	background: url("./Mtime/4.png") 0 -47px no-repeat;
+}
+.video{
+	background: url("./Mtime/3.png") 0 -47px no-repeat;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 8px;
+	bottom: 8px;
+}
+.picture{
+	    background: url("./Mtime/2.png") 0 -160px no-repeat;
+	    width: 32px;
+	    height: 24px;
+	    position: absolute;
+	    left: 8px;
+	    bottom: 8px;
+}
+.global_pftext{
+	width: 285px;
+	height: 21px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 6px;
+	margin-bottom: 2px;
+
+}
+.global_pftext a{	
+	color: #333;
+}
+.global_pftext a:hover{
+	color: #1F7DD7;
+}
+.global_pstext{
+	width: 285px;
+	height: 21px;
+	font-size: 14px;
+	padding-bottom: 16px;
+}
+.global_pstext a{
+	color: #888;
+}
+.global_viewmore{
+	position: relative;
+	top: 25px;
+	width: 1200px;
+	height: 37px;
+	text-align: center;
+}
+.global_viewmore a{
+	font-size: 15px;
+border: 1px solid #666;
+padding: 8px 49px 8px 49px;
+border-radius: 20px;
+color: #666;
+}
+.global_viewmore a:hover{
+	border: none;
+	background-color: #1E7DD7;
+	color: white;
+}

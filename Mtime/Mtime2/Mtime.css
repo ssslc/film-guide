@@ -1,0 +1,169 @@
+﻿<style>
+    /*清零*/
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+        margin: 0;padding: 0;
+    }
+    .m_eva{
+    	width: 1200px;height: 577px;margin: 0 auto;position: relative;
+    }
+    .rm{
+    	width: 860px;height: 30px;
+    } 
+    .rm h4{
+    	font-size: 22px;
+    	font-weight: 400;
+    	color:#333333;
+    }
+    .gd{
+    	width: 40px;height: 25px;position: absolute;top: 4px;right:340px;
+    }
+    .gd a {
+    	text-decoration: none;float: right;padding-top: 7px;color:#333333;
+    }
+    .gd a:hover{
+    	color: blue;text-decoration: none;
+    }
+      .r{
+     	width: 90px;height: 25px;position: absolute;top: 0px;right: 100px;
+     }
+     .r p{
+     	font-size: 22px;
+    	font-weight: 400;
+    	color:#333333;
+    	line-height: 1px;padding-bottom: 10px;
+     }
+    .a{
+    	width: 450px;height: 470px;position: relative;top: 20px;border: 2px solid #e6e6e6;
+    	border-top: none;
+    }
+    .zp{
+    	width: 450px;height: 260px;position: absolute;left: 0;top: 0px; background-image: url(image/76.jpg);	
+    }
+      .zp a{
+    	width: 450px;height: 260px;display: inline-block;	
+    }
+    .zp_1{
+    	width: 450px;height: 260px;position: absolute;left: 14px;top: 225px;
+    }
+    .zp_2{
+    	position: absolute;left: 112px;top: 271px;
+    }
+    .zp_3{
+    	width: 392px;height: 122px;position: absolute;left: 65px;top: 321px;
+    }
+    .zp_3 a{
+    	text-decoration: none;color: #333;font-weight: 100;font-size: 22px;
+    }
+    .zp_3 a:hover{
+    	color: blue;
+    }
+    .zp_3 p{
+    	color: #333;font-size: 16px;line-height: 28px;
+    }
+    .mid1{
+    	width: 378px;height: 128px;position: absolute;left: 483px;top: 59px;
+    }
+    .mid1-1{
+    	width: 276px;height: 96px;position: absolute;left: 1px;top: 0;
+    }
+    .mid1-1 a{
+    	text-decoration: none;color: #333;font-size: 17px;line-height: 24px;
+    }
+      .mid1-1 a:hover{
+    	color: blue;
+    }
+    .mid1-2{
+    	width: 145px;height: 22px;position: absolute;left: 0;top: 106px;background-image: url(images/m_04.gif);
+    }
+     .mid1-2 a{
+     	width: 72px;height: 22px;display: inline-block;
+     }
+    .mid1-3{
+    	width: 80px;height: 120px;position: absolute;right: 0px;top: 0;
+    }
+     .mid1-3 img{
+     	width: 80px;height: 120px;
+     }
+      .mid2{
+    	width: 378px;height: 128px;position: absolute;left: 483px;top: 210px;
+    }
+    .mid2-1{
+    	width: 276px;height: 96px;position: absolute;left: 1px;top: 0;
+    }
+    .mid2-1 a{
+    	text-decoration: none;color: #333;font-size: 17px;line-height: 24px;
+    }
+      .mid2-1 a:hover{
+    	color: blue;
+    }
+    .mid2-2{
+    	width: 170px;height: 22px;position: absolute;left: 0;top: 106px;background-image: url(images/m_06.gif);
+    }
+     .mid2-2 a{
+     	width: 72px;height: 22px;display: inline-block;
+     }
+    .mid2-3{
+    	width: 80px;height: 120px;position: absolute;right: 0px;top: 0;
+    }
+     .mid2-3 img{
+     	width: 80px;height: 120px;
+     }
+      .mid3{
+    	width: 378px;height: 128px;position: absolute;left: 483px;top: 380px;
+    }
+    .mid3-1{
+    	width: 276px;height: 96px;position: absolute;left: 1px;top: 0;
+    }
+    .mid3-1 a{
+    	text-decoration: none;color: #333;font-size: 17px;line-height: 24px;
+    }
+     .mid3-1 a:hover{
+    	color: blue;
+    }
+    .mid3-2{
+    	width: 170px;height: 22px;position: absolute;left: 0;top: 107px;background-image: url(images/m_06.gif);
+    }
+     .mid3-2 a{
+     	width: 72px;height: 22px;display: inline-block;
+     }
+    .mid3-3{
+    	width: 80px;height: 120px;position: absolute;right: 0px;top: 0;
+    }
+     .mid3-3 img{
+     	width: 80px;height: 120px;
+     }
+     .r2{
+     	width: 304px;height: 462px;position: absolute;right: 0;top:59px;border: 2px solid #e6e6e6;border-top: none;
+     }
+     .r2-1{
+     	width: 304px;height: 212px;background-image: url(images/36.jpg);
+     }
+     .r2-1 a{
+     	width: 304px;height: 212px;display: inline-block;
+     }
+     .r2-2{
+     	width: 234px;height: 22px;position: absolute;top: 232px;right: 37px;
+     }
+     .r2-2 a{
+     	text-decoration: none;font-weight: bold;font-size: 15px;color: #000;
+     }
+       .r2-2 a:hover{
+    	color: blue;
+    }
+     .r2-3{
+     	width: 116px;height: 42px;position: absolute;top: 262px;right: 160px;
+     }
+     .r2-3 p{
+     	font-size: 10px;line-height: 1px;
+     }
+      .r2-4{
+     	width: 257px;height: 56px;position: absolute;right: 27px;bottom: 90px;
+     }
+     .r2-4 p{
+     	font-size: 14px;color: #333;
+
+     }
+      .r2-5{
+     	width: 162px;height: 36px;position: absolute;right: 72px;bottom: 18px;
+     }
+    </style>

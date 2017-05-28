@@ -1,0 +1,149 @@
+﻿.app_tab{
+    width:100%;
+    height:138px;
+    background:url("../M_images/images/top_bg.jpg") center top no-repeat;
+    position:relative;
+}
+.app_tab ul{
+    width:1000px;
+    padding-top:96px;
+    margin:0 auto;
+    position:relative;
+}
+.app_tab ul li{
+    width:170px;
+    height:42px;
+    line-height:42px;
+    background:#00427e;
+    color:#71b1ec;
+    text-align:center;
+    position:relative;
+    color:#71b1ec;
+    cursor:pointer;
+    font-size:16px;
+    overflow:hidden; 
+    float:left;}
+.app_tab ul li em{
+    width:22px;
+    height:22px;
+    background:url("../M_images/images/icon.png") no-repeat;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;}
+.app_tab ul li.cur{
+    width:170px;
+    height:42px;
+    color:#fff;
+    line-height:42px;
+    background:url("../M_images/images/cur_bg.jpg") repeat-x;}
+.app_tab ul li a,.app_tab ul li a:hover{
+ color:#fff; 
+ text-decoration:none;
+}
+.app_contwrap ul li{
+    position:relative;
+    zoom:1;
+}
+.app_head {
+    background:url("../M_images/images/bg0.jpg") no-repeat center 0;height: 422px;
+    position: relative;
+    zoom:1;}
+.app_head .app_btn {
+    position:absolute;
+    left: 50%;
+    margin-left: -270px;
+    top: 252px;
+    width:182px;
+}
+.app_head .app_btn a{
+    background:url("../M_images/images/btnbg.png") no-repeat;
+    color: #fff;
+    display: block;
+    height: 53px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 168px;
+    overflow:hidden
+    ;}
+.app_head .app_btn a:hover{
+    text-decoration: none;
+}
+.app_head .app_btn strong{
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 10px;
+}
+.app_bg1 {
+    background:url("../M_images/images/bg1.jpg") no-repeat center 0;
+    height:422px;
+}
+.app_bg2 {
+    background:url("../M_images/images/bg2.jpg") no-repeat center 0;
+    height: 422px;}
+.app_bg3 {
+    background:url("../M_images/images/bg3.jpg") no-repeat center 0;
+    height: 422px;}
+.app_bg4 {
+    background:url("../M_images/images/bg3.jpg") no-repeat center 0;
+    height: 422px;}
+.app_bg5 {
+      background:url("../M_images/images/bg3.jpg") no-repeat center 0;
+    height: 422px;}
+.app_bg6 {
+    background:url(../M_images/images/bg4.jpg) no-repeat center 0;    height: 422px;}
+.app_bg7 {
+    background:url(../M_images/images/bg5.jpg) no-repeat center 0;    height: 421px;}
+.app_bg8 {
+    background:url(../M_images/images/bg6.jpg) no-repeat center 0;    height: 421px;}
+.app_bg9 {
+    background:url(../M_images/images/bg7.jpg) no-repeat center 0;    height: 422px;}
+.app_bg10 {
+    background:url(../M_images/images/bg8.jpg) no-repeat center 0;    height: 422px;}
+.app_bg11 {
+    background:url(../M_images/images/bg9.jpg) no-repeat center 0;    height: 423px;}
+
+
+.app_foot {
+    background: #4caef8;
+    height: 265px;
+    position: relative;
+}
+.app_foot i{
+    background:url(../M_images/images/code.png) no-repeat center center;
+    height: 150px;
+    left: 50%;
+    margin-left: -75px;
+     position: absolute;
+     top: -80px;
+     width: 150px;
+    }
+
+.app_foot .app_btn {
+    left: 50%;
+    margin-left: -210px;
+    position: absolute;
+    top: 120px;
+    width: 420px;
+}
+.app_foot .app_btn a{
+    color: #fff;
+    display: block;
+    height: 53px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 188px;
+    background:url(../M_images/images/btnbg.png) no-repeat center 0;
+}
+.app_foot .app_btn a:hover {
+    text-decoration: none;
+}
+.app_foot .app_btn strong {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 10px;
+}

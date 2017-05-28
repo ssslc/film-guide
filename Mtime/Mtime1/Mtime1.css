@@ -1,0 +1,162 @@
+﻿<style>
+    /*清零*/
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+        margin: 0;padding: 0;
+    }
+    .ss{
+    	width: 1000px;height: 800px;margin: 0 auto;position: relative;
+    }
+    .ss1{
+    	width: 1000px;height: 46px;border-bottom: 2px solid #dedede;
+    }
+    .ss2{
+    	width: 350px;height: 18px;position: absolute;top: 0;left: 0px;
+    }
+    .ss2 li{
+    	float: left;list-style: none;
+    }
+    .ss2 a{
+    	text-decoration: none;text-align: center;font-size: 14px;padding-right: 20px;color: #333;
+    }
+ .ss3{
+ 	width:90px;height: 30px;position: absolute;top: 15px;right: 0;
+ }
+ .ss3 a{
+font-size: 14px;text-decoration: none;color: #333;
+ }
+ .hsy{
+ 	width: 174px;height: 14px;position: absolute;left: 40px;top: 50px;
+ }
+ .hsy a{
+ 	text-decoration: none;font-size: 12px;color: red;
+ }
+ .hsy p{
+ 	font-size: 12px;
+ }
+ .hsy a:hover{
+ 	text-decoration: underline;
+ }
+ .box{
+ 	height: 160px;width: 360px;top: 104px;left: 90px;position: absolute;	
+ }
+ .box-1 a{
+ 	text-decoration: none;
+ }
+ .box-2{
+ 	width: 262px;height: 70px;position: absolute;right: 0;top: 30px;
+ }
+ .box-2 p{
+ 	font-size: 10px;color: #333;bottom: 10px;margin-top: 0px;
+ }
+ .box-2 a{
+ 	text-decoration: none;color: #333;
+ }
+ .box-2 a:hover{
+ 	text-decoration: underline;color: blue;
+ }
+ .box-3{
+ 	width: 98px;height: 130px;position: absolute;bottom: 0;
+ }
+  .box1{
+ 	height: 160px;width: 360px;top: 320px;left: 90px;position: absolute;	
+ }
+ .box1-1 a{
+ 	text-decoration: none;
+ }
+ .box1-2{
+ 	width: 262px;height: 70px;position: absolute;right: 0;top: 30px;
+ }
+ .box1-2 p{
+ 	font-size: 10px;color: #333;bottom: 10px;margin-top: 0px;
+ }
+ .box1-2 a{
+ 	text-decoration: none;color: #333;
+ }
+  .box1-2 a:hover{
+ 	text-decoration: underline;color: blue;
+ }
+ .box1-3{
+ 	width: 98px;height: 130px;position: absolute;bottom: 0;
+ }
+ .other_box{
+ 	width: 300px;height: 415px;position: absolute;right: 24px;top: 104px;
+ }
+ .other_box h2{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0;
+    font-weight: normal;
+ }
+ .other_box1{
+ 	width: 77px;height: 170px;position: absolute;
+ }
+  .other_box1 a{
+  	text-decoration: none; font-size: 12px;color: #333333;
+  }
+  .other_box1 a:hover{
+  	text-decoration: underline;color: blue;
+  }
+  .other_box1 p{
+  	margin-top: 0px;font-size: 12px;
+  }
+   .other_box2{
+ 	width: 77px;height: 170px;position: absolute;left: 100px;
+ }
+  .other_box2 a{
+  	text-decoration: none; font-size: 12px;color: #333333;
+  }
+  .other_box2 a:hover{
+  	text-decoration: underline;color: blue;
+  }
+  .other_box2 p{
+  	margin-top: 0px;font-size: 12px;
+  }
+  .other_box3{
+ 	width: 77px;height: 170px;position: absolute;left: 200px;
+ }
+  .other_box3 a{
+  	text-decoration: none; font-size: 12px;color: #333333;
+  }
+  .other_box3 a:hover{
+  	text-decoration: underline;color: blue;
+  }
+  .other_box3 p{
+  	margin-top: 0px;font-size: 12px;
+  }
+    .other_box4{
+ 	width: 77px;height: 170px;position: absolute;top: 231px;
+ }
+  .other_box4 a{
+  	text-decoration: none; font-size: 12px;color: #333333;
+  }
+  .other_box4 a:hover{
+  	text-decoration: underline;color: blue;
+  }
+  .other_box4 p{
+  	margin-top: 0px;font-size: 12px;
+  }
+     .other_box5{
+ 	width: 77px;height: 170px;position: absolute;top: 231px;left: 100px;
+ }
+  .other_box5 a{
+  	text-decoration: none; font-size: 12px;color: #333333;
+  }
+  .other_box5 a:hover{
+  	text-decoration: underline;color: blue;
+  }
+  .other_box5 p{
+  	margin-top: 0px;font-size: 12px;
+  }
+    .other_box6{
+ 	width: 77px;height: 170px;position: absolute;top: 231px;left: 200px;
+ }
+  .other_box6 a{
+  	text-decoration: none; font-size: 12px;color: #333333;
+  }
+  .other_box6 p{
+  	margin-top: 0px;font-size: 12px;
+  }
+  .other_box6 a:hover{
+  	text-decoration: underline;color: blue;
+  }
+    </style>
